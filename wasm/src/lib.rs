@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////
+////////////////// AUTO-GENERATED //////////////////
+////////////////////////////////////////////////////
+
+#![no_std]
+
+elrond_wasm_node::wasm_endpoints! {
+    guest_book
+    (
+        add_message
+        getAllMessages
+    )
+}
+
+elrond_wasm_node::wasm_empty_callback! {}
